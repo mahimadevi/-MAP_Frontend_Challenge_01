@@ -1,0 +1,17 @@
+/* Carousel.css */
+
+.carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+  }
+  
+  .carousel__inner {
+    display: flex;
+  }
+  
+  .carousel__inner > * {
+    flex: 0 0 auto;
+    margin-right: 16px;
+  }
+  
